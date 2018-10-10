@@ -8,7 +8,7 @@ After cloning the repo you will need to build the project with maven.
 
 ### Prerequisites
 
-Running MySQL server instance.
+Running MySQL server instance with initialized LOGS database.
 
 ### Run
 
