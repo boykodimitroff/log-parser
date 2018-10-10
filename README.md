@@ -1,4 +1,4 @@
-# Project Title
+# log-parser
 
 Simple Spring Boot application which parses log file with specific model. After the parsing is done the application finds all the IPs which have made more than a certain amount of requests based on a given period and duration.
 
