@@ -8,11 +8,11 @@ After cloning the repo you will need to build the project with maven.
 
 ### Prerequisites
 
-Running MySQL server instance with initialized LOGS database.
+Running MySQL server instance with initialized LOGS database. Connection credentials: admin/admin
 
 ### Run
 
-java -jar log-parser-0.0.1-SNAPSHOT.jar --startDate=<date in format yyyy-MM-dd.HH:mm:ss> --threshold=<number of requests> --accessLog=<path to file> --duration=<daily/hourly> 
+java -jar /bin/parser.jar --startDate=<date in format yyyy-MM-dd.HH:mm:ss> --threshold=<number of requests> --accessLog=<path to file> --duration=<daily/hourly> 
 
 ## Built With
 
