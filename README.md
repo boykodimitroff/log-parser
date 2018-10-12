@@ -10,9 +10,14 @@ After cloning the repo you will need to build the project with maven.
 
 Running MySQL server instance with initialized LOGS database. Connection credentials: admin/admin
 
+### Log file format
+Date|IP|Request|Status|User Agent
+
+Test log file can be found in the /src/main/resources folder
+
 ### Run
 
-java -jar /bin/parser.jar --startDate=<date in format yyyy-MM-dd.HH:mm:ss> --threshold=<number of requests> --accessLog=<path to file> --duration=<daily/hourly> 
+java -jar /bin/parser.jar --startDate=<date in format yyyy-MM-dd.HH:mm:ss> --threshold=<number of requests> --accessLog=<path to file> --duration=<daily/hourly>
 
 ## Built With
 
